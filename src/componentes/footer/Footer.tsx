@@ -5,7 +5,7 @@ function Footer(){
         <footer>
             <div className='container'>
                 <div className="infos">
-                    <h1 className="text2">Barbie</h1></div>
+                    <h1 className="text2">Me contrate :)</h1></div>
                     <nav className="product">
                         <ul className='ulfooter'><a className="text">Contatos:</a>
                             <li className='lifooter'>
