@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
 main{
     background-color: #99a7c5;
     height: 78vh;
+    display: flex;
+    align-items: center;
+}
+
+.containerMain{
+    width: 27vw;
+    padding: 0px 50px;
+}
+
+.textMain{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
 }
