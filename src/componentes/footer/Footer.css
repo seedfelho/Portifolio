@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+*{
+    margin: 0;
+}
+
+.text{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.text2{
+    font-size: 74.2px;
+    font-weight: bold;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.padrao{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+.lifooter{
+    list-style: none;
+    padding: 8px 0px;
+    text-align: start;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(64, 79, 110);
+}
+
+
+.sla{
+    font-size: 18px;
+}
+
+.padrao:hover{
+    cursor: pointer;
+    color: #dad7dd;
+}
+
+.ulfooter{
+    display: flex;
+    gap: 30px;
+    padding: 0px 100px 0px 0px;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+}

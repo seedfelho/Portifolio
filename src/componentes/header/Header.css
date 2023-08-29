@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+header{
+    font-family: 'Preahvihear', sans-serif;
+    background-color:rgb(64, 79, 110);
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    align-items: center;
+}
+
+.portifolio{
+    font-size: 38px;
+    color: rgb(208, 228, 242);
+}
