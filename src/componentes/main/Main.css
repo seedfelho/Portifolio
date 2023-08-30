@@ -3,6 +3,7 @@ main{
     background-color: #99a7c5;
     height: 78vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -15,4 +16,35 @@ main{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Barlow', sans-serif;
+}
+
+.textfeitos{
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+.lifeitos{
+    list-style: none;
+    align-self: center;
+}
+
+.feitos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.textfeitos:hover{
+    color: #dad7dd;
+}
+
+.titulofeitos{
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navfeitos{
+    padding: 0px 200px 0px 0px;
 }
