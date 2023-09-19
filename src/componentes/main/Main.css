@@ -2,8 +2,8 @@
 main{
     background-color: #99a7c5;
     height: 78vh;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
@@ -46,5 +46,29 @@ main{
 }
 
 .navfeitos{
-    padding: 0px 200px 0px 0px;
+    padding: 0px 100px 0px 0px;
+}
+
+.content_projeto{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+}
+.barrapesquisa{
+    height: 30px;
+    border: 1px solid #000;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+.pesquisa{
+    padding: 50px;
+}
+
+.barrapesquisa:focus-visible{
+    outline: 1px solid rgba(28, 28, 191, 0.57);
 }
