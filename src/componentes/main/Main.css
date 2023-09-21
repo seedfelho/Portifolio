@@ -3,13 +3,13 @@ main{
     background-color: #99a7c5;
     height: 78vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
 }
 
 .containerMain{
-    width: 27vw;
-    padding: 0px 50px;
+    padding: 0px 0px 0px 30px;
+    width: 98%;
 }
 
 .textMain{
@@ -18,31 +18,10 @@ main{
     font-family: 'Barlow', sans-serif;
 }
 
-.textfeitos{
-    text-decoration: none;
-    color: black;
-    font-size: 27px;
-}
-
-.lifeitos{
-    list-style: none;
-    align-self: center;
-}
-
-.feitos{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-family: 'Barlow', sans-serif;
-}
-
-.textfeitos:hover{
-    color: #dad7dd;
-}
-
 .titulofeitos{
-    font-size: 30px;
     font-family: 'Barlow', sans-serif;
+    padding: 7px 10px 0px 30px;
+    font-size: 35px;
 }
 
 .navfeitos{
@@ -66,10 +45,13 @@ main{
 }
 
 .pesquisa{
-    padding: 50px;
     align-self: baseline;
 }
 
 .barrapesquisa:focus-visible{
     outline: 1px solid rgba(28, 28, 191, 0.57);
+}
+
+.containerMid{
+    display: flex;
 }

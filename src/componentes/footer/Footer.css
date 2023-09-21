@@ -41,12 +41,17 @@
 
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 footer{
     width: 100%;
+    height: 14vh;
     background-color:rgb(64, 79, 110);
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -67,5 +72,5 @@ footer{
 
 .product{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
