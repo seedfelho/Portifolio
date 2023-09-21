@@ -12,7 +12,7 @@ function Projeto(props:ProjetoProps){
             </div>
             <div className="titulofoto">
                 <h1 className="h1-titulo">{props.titulo}</h1>
-                <p className="sinopse">{props.resumo}</p>
+                <p className="resumo">{props.resumo}</p>
             </div>
         </div>
     )

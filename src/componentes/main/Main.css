@@ -67,6 +67,7 @@ main{
 
 .pesquisa{
     padding: 50px;
+    align-self: baseline;
 }
 
 .barrapesquisa:focus-visible{

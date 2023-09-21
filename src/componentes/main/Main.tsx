@@ -22,7 +22,7 @@ function Main(){
         {
             id:2,
             titulo: "Gameficação na educação",
-            resumo:"O projeto tem como objetivo desenvolver um site para os professores poderem acessar e ver ferramentas que ele pode ultilizar para deixar o estudar mais divertido",
+            resumo:"O projeto tem como objetivo desenvolver um site para os professores poderem acessar e ver ferramentas que ele pode ultilizar para deixar o estudar algo mais divertido",
             imagem:"/gamificacao.png"
         },
         {
@@ -61,7 +61,7 @@ function Main(){
                 </div>
             </div>
             <div className="content_projeto">
-                { projetos.filter((p) => p.titulo.toLowerCase().includes(texto)).map( (pro) => <Projeto key = { pro.id } titulo={ pro.titulo } resumo={ pro.resumo } imagem={pro.imagem}/>) }
+                { projetos.filter((p) => p.titulo.toLowerCase().includes(texto)).map( (projeto) => <Projeto key = { projeto.id } titulo={ projeto.titulo } resumo={ projeto.resumo } imagem={projeto.imagem}/>) }
             </div>
         </main>
     )
