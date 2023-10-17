@@ -7,10 +7,13 @@
 .text{
     font-size: 25px;
     font-weight: bold;
+    text-decoration: none;
+    color:  black;
     font-family: 'Preahvihear', sans-serif;
 }
 .text:hover{
-    cursor:default;
+    cursor:pointer;
+    color: #99A7C5;
 }
 .text2:hover{
     cursor:default;
@@ -64,11 +67,6 @@ footer{
     color: #dad7dd;
 }
 
-.ulfooter{
-    display: flex;
-    gap: 30px;
-    padding: 0px 100px 0px 0px;
-}
 
 .product{
     display: flex;

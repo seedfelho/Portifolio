@@ -1,23 +1,11 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer(){
     return(
         <footer>
             <div className='container'>
-                    <nav className="product">
-                        <ul className='ulfooter'><a className="text">Contatos:</a>
-                            <li className='lifooter'>
-                                <a className="padrao" href="#">LinkedIn</a>
-                            </li>
-                            <li className='lifooter'>
-                                <a className="padrao" href="#">Telefone</a>
-                            </li>
-                            <li className='lifooter'>
-                                <a className="padrao" href="#">Email</a>
-                            </li>
-                        </ul>
-                    </nav>
-                <div/> 
+                <Link className='text' to="/contato">Contatos</Link>
             </div>
         </footer>
     )

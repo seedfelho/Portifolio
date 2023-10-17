@@ -1,0 +1,63 @@
+.mainContato{
+    background-color: #99a7c5;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    border-radius: 40px;
+    height: 45vh;
+    width: 20vw;
+    background-color: #404F6E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs{
+    height: 3vh;
+    width: 15vw;
+    border-radius: 11px;
+    border: none;
+    text-align: unset;
+    outline: none;
+}
+
+.botaoForm{
+    height: 4vh;
+    width: 8vw;
+    border: none;
+    border-radius: 20px;
+    background-color: #99a7c5;
+    margin-top: 30px;
+}
+
+.botaoForm:hover{
+    cursor: pointer;
+    background-color: #9197A1;
+}
+
+.tituloInput{
+    font-size: 18px;
+    color: #000;
+    padding-top: 40px;
+    align-self: flex-start;
+    padding-left: 60px;
+}
+
+#descricao{
+    height: 10vh;
+    width: 15vw;
+    resize: none;
+}
+
+.alinaP{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.state{
+    font-size: 20px;
+}
