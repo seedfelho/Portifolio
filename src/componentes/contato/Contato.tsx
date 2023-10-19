@@ -10,7 +10,7 @@ function Contato(){
     function mudaEmail(e:React.ChangeEvent<HTMLInputElement>){
         setEmail(e.target.value)
     }
-    function mudaMotivo(e:React.ChangeEvent<HTMLInputElement>){
+    function mudaMotivo(e:React.ChangeEvent<HTMLTextAreaElement>){
         setMotivo(e.target.value)
     }
     return (
@@ -27,8 +27,8 @@ function Contato(){
             </form>
             <div className="alinaP">
                 <p className="state">Nome:{nome}</p>
-                <p className="state">E-mail: {email}</p>
-                <p className="state">Motivo: {motivo}</p> 
+                <p className="state">E-mail:{email}</p>
+                <p className="state">Motivo:{motivo}</p> 
             </div>
             
         </main>
